@@ -913,7 +913,7 @@ li {
 }
 
 .section._2 {
-  background-image: url('../images/Commonwealth-Creative-Northern-Virginia-Food-Rescue-CoverPhoto.jpg');
+  background-image: url('../images/commonwealth-creative-novafr-giving-tuesday-heroimage_1.webp');
   background-position: 0 0;
   background-size: cover;
 }
@@ -935,19 +935,19 @@ li {
 }
 
 .section._1 {
-  background-image: url('../images/Commonwealth-Creative-Mary-Baldwin-MBA-CoverPhoto.jpg');
+  background-image: url('../images/commonwealth-creative-mbumba-cover_1.webp');
   background-position: 0 0;
   background-size: cover;
 }
 
 .section._4 {
-  background-image: url('../images/Commonwealth-Creative-therapyland-play-therapyCoverPhoto.jpg');
-  background-position: 0 0;
+  background-image: url('../images/commonwealth-creative-therapyland-poster-background_1.webp');
+  background-position: 50%;
   background-size: auto;
 }
 
 .section._3 {
-  background-image: url('../images/Commonwealth-Creative-DBHDSCoverPhoto.jpg');
+  background-image: url('../images/commonwealth-creative-virginia-dbhds--1_1.webp');
   background-position: 0 0;
   background-size: cover;
 }
@@ -1262,10 +1262,10 @@ li {
 }
 
 .method1 {
-  background-image: url('../images/commonwealth-creative-strategy.jpg');
+  background-image: url('../images/commonwealth-creative-strategic-foundation.jpg');
   background-position: 0 0;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
 }
 
 .methodstack {
@@ -1283,17 +1283,17 @@ li {
 }
 
 .method2 {
-  background-image: url('../images/commonwealth-creative-design.jpg');
+  background-image: url('../images/commonwealth-creative-visual-branding-design.jpg');
   background-position: 100% 0;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 0 20px 20px 0;
 }
 
 .method3 {
-  background-image: url('../images/commonwealth-creative-development.jpg');
+  background-image: url('../images/commonwealth-creative-web-digital-development.jpg');
   background-position: 0 0;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
 }
 
 ._1300pagehero {
@@ -1684,7 +1684,7 @@ li {
 .leftpanel {
   float: left;
   background-color: #fff;
-  background-image: url('../images/matthew2024_1.webp');
+  background-image: url('../images/matthew2025white_1.webp');
   background-position: 65%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1696,7 +1696,7 @@ li {
 
 .profilelogo {
   width: 7vw;
-  padding-top: 16vh;
+  padding-top: 15vh;
   display: block;
   position: absolute;
   left: 40%;
@@ -1726,6 +1726,10 @@ li {
   font-family: Paytone One, sans-serif;
   font-size: 8vw;
   line-height: 8vw;
+}
+
+.profileheading.green {
+  color: #73e1bc;
 }
 
 .txtbreak {
@@ -2191,7 +2195,7 @@ li {
   }
 
   .profilelogo {
-    padding-top: 14.5vh;
+    padding-top: 14vh;
   }
 
   .profileinfo {
@@ -2445,8 +2449,16 @@ li {
     margin-right: 20px;
   }
 
+  .section._2 {
+    background-image: url('../images/commonwealth-creative-novafr-giving-tuesday-heroimage_1.webp');
+  }
+
   .section._6, .section._6.single {
     margin-right: 20px;
+  }
+
+  .section._3 {
+    background-image: url('../images/commonwealth-creative-virginia-dbhds--1_1.webp');
   }
 
   .section.featured {
@@ -2630,9 +2642,8 @@ li {
   }
 
   .profilesection {
-    flex-flow: column-reverse;
+    flex-flow: column;
     height: auto;
-    display: flex;
     position: fixed;
   }
 
@@ -2642,22 +2653,25 @@ li {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
-    height: 40vh;
+    height: 38vh;
   }
 
   .profilelogo {
     width: 70px;
-    padding-top: 0;
-    inset: 69vh auto auto 6%;
+    padding-top: 5vh;
+    bottom: auto;
+    left: 6%;
+    right: auto;
   }
 
   .rightpanel {
+    box-shadow: none;
     flex-flow: column;
     justify-content: space-around;
     align-items: flex-start;
     min-width: 100%;
     max-width: 100%;
-    height: 60vh;
+    height: 62vh;
     padding-top: 10px;
     display: flex;
     position: relative;
@@ -3132,17 +3146,17 @@ li {
 
   .leftpanel {
     background-size: cover;
-    height: 60vh;
+    height: 30vh;
   }
 
   .profilelogo {
     width: 50px;
-    padding-top: 0;
-    top: 69vh;
-    left: 11%;
+    padding-top: 4vh;
+    left: 6%;
   }
 
   .rightpanel {
+    height: 70vh;
     padding-top: 10px;
   }
 
@@ -3180,6 +3194,11 @@ li {
 #w-node-fd906765-f9a3-f9a7-1293-a0488deea034-f4ae160d {
   grid-template-rows: auto;
   grid-template-columns: 1fr .33fr .33fr;
+}
+
+#w-node-_3ec59d10-1180-2156-fa68-03b184b727a5-f4ae160d {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #w-node-d08de9ca-9d85-e5fc-176e-3caa5e68cd1b-f4ae160d {
