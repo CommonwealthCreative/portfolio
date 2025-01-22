@@ -589,7 +589,7 @@ blockquote {
   bottom: -25vh;
   right: auto;
   overflow: visible;
-  transform: rotate(-45deg);
+  transform: rotate(72deg);
 }
 
 .backgroundblack {
@@ -1085,6 +1085,7 @@ blockquote {
   width: 713px;
   margin-top: 10vw;
   font-family: Paytone One, sans-serif;
+  display: none;
   position: relative;
 }
 
@@ -1370,6 +1371,10 @@ blockquote {
     margin-left: 0;
   }
 
+  .lottie-animation {
+    width: 850px;
+  }
+
   .commonworkrow.novafr, .commonworkrow.ptsd {
     background-position: 0%;
   }
@@ -1398,6 +1403,11 @@ blockquote {
 
   .hero {
     margin-top: 200px;
+  }
+
+  .pulse {
+    width: 800px;
+    height: 800px;
   }
 
   .stacking-card.is--fifth, .stacking-card.is--second, .stacking-card.is--first, .stacking-card.is--sixth, .stacking-card.is--fourth, .stacking-card.is--third {
@@ -1554,8 +1564,13 @@ blockquote {
     padding-top: 0;
   }
 
+  .paytone {
+    z-index: 1;
+    position: relative;
+  }
+
   .lottie-animation {
-    width: 800px;
+    width: 850px;
   }
 
   .commoncellimage {
@@ -1619,7 +1634,12 @@ blockquote {
   }
 
   .header {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
     height: 100vh;
+    padding-top: 200px;
   }
 
   .hero {
@@ -1629,6 +1649,10 @@ blockquote {
   .pulse {
     width: 800px;
     height: 800px;
+  }
+
+  .biopic {
+    bottom: -100px;
   }
 
   .heading-style-h3 {
@@ -1663,9 +1687,18 @@ blockquote {
     font-size: 1.5rem;
     line-height: 2rem;
   }
+
+  .h1circle {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .actionpulse {
     top: 12px;
   }
@@ -1790,6 +1823,10 @@ blockquote {
     margin-right: 20px;
   }
 
+  .lottie-animation {
+    width: 750px;
+  }
+
   .tinytext {
     font-size: .7rem;
   }
@@ -1844,6 +1881,19 @@ blockquote {
 
   .ths13-menu-contact-info {
     width: 100%;
+  }
+
+  .header {
+    padding: 300px 10px 80px;
+  }
+
+  .pulse {
+    width: 700px;
+    height: 700px;
+  }
+
+  .biopic {
+    max-width: 150%;
   }
 
   .card-right {
