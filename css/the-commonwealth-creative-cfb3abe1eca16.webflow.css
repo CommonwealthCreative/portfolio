@@ -680,6 +680,14 @@ blockquote {
   background-position: 100%;
 }
 
+.commonworkrow.twx {
+  background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2025/01/commonwealth-creative-thriveworks-coer.jpg');
+}
+
+.commonworkrow.reach {
+  background-image: url('https://thecommonwealthcreative.com/wp-content/uploads/2024/12/reach-building-exterior.jpg');
+}
+
 .text-holder {
   background-image: radial-gradient(circle at 0 100%, #202123b0 13%, #20212321 69%);
   width: 100%;
